@@ -5,4 +5,16 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>If Alternative Factory Class</name>
   <description>A Prototype Implementation of a Factory Class to be used as an alternative to If or Switch Statements.</description>
+  
+  <build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
